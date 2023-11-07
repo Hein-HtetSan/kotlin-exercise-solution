@@ -1,10 +1,8 @@
 package `kotlin-basic`
 
-import com.sun.source.tree.ArrayAccessTree
-
-fun main(){
+fun main(args: Array<String>){
     print("Enter fahrenheit : ")
-    val input = readLine();
+    val input = 90
     val celsicus = (input - 32) * 5 / 9
     println("There are Celsius : $celsicus")
 }
